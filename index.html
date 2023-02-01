@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time For You</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./css/bases.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/cardCarousel/base.css" />
+    <link rel="stylesheet" href="./css/destacados/destacados.css" />
+    <link rel="stylesheet" href="./css/diferencias/diferencias.css" />
+    <link rel="stylesheet" href="./css/footer/footer.css" />
+    <link rel="stylesheet" href="./css/mapa/mapa.css" />
+    <link rel="stylesheet" href="./css/menu/encabezado.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/principal/principal.css" />
+    <link rel="stylesheet" href="./css/contactos/contatos.css">
+
+    <script src="https://kit.fontawesome.com/5de8ac98b3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <script crossorigin="" src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin="" src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+
+</head>
+
+<body>
+
+    <header class="encabezado container">
+        <img class="encabezado__logo animate__animated animate__bounceInLeft" src="./img/Logotipo Original (PNG).png"
+            alt="Logo de TimeForYou" />
+        <nav>
+            <ul class="encabezado__menu">
+                <li class="encabezado__menu__item">
+                    <a class="encabezado__menu__link activo" href="#">
+                        Inicio
+                    </a>
+                </li>
+                <li class="encabezado__menu__item">
+                    <a class="encabezado__menu__link" href="#Trabajos">
+                        Servicios
+                    </a>
+                </li>
+                <li class="encabezado__menu__item">
+                    <a class="encabezado__menu__link" href="#Ubicacion">
+                        Ubicacion
+                    </a>
+                </li>
+                <li class="encabezado__menu__item">
+                    <a class="encabezado__menu__link" href="#Contacto">
+                        Contacto
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="destacados">
+            <div id="imagen" class="carousel">
+                <button id="retroceder" class="button carousel__button__retroceder"></button>
+
+                <button id="avanzar" class="button carousel__button__avanzar"></button>
+            </div>
+        </section>
+
+        <section>
+            <!--Carrousel Cards -->
+            <a name="Trabajos">
+                <div class="body">
+                    <div id="wrapper">
+
+                        <h1 class="body_wrapper_titulo">Servicios</h1>
+
+                        <div id="carousel" class="carousel">
+                            <div id="content" class="content">
+                                <div class="card">
+                                    <div class="card-img-colores">
+                                        <h3 class="card-img-titulo">Colores</h3>
+                                    </div>
+                                    <div class="card-info">
+                                        <p class="text-title">Colores</p>
+                                        <p class="text-body">Lorem Ipsum dolor sit amet</p>
+                                        <button class="btn" id="boton"> Ver
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                                <!-- Cejas -->
+                                <div class="card">
+                                    <div class="card-img-cejas">
+                                        <h3 class="card-img-titulo">Cejas</h3>
+                                    </div>
+                                    <div class="card-info">
+
+                                        <p class="text-body">Entra y ve todos nuestros trabajos realizados</p>
+                                        <button class="btn" id="boton"> Ver
+                                        </button>
+
+                                    </div>
+                                </div>
+                                <!-- Colores -->
+                                <div class="card">
+                                    <div class="card-img-colores">
+                                        <h3 class="card-img-titulo">Colores</h3>
+                                    </div>
+                                    <div class="card-info">
+                                        <p class="text-body">Entra y ve todos nuestros trabajos realizados</p>
+                                        <button class="btn" id="boton"> Ver
+                                        </button>
+
+                                    </div>
+                                </div>
+                                <!-- Corte -->
+                                <div class="card">
+                                    <div class="card-img-corte">
+                                        <h3 class="card-img-titulo">Corte</h3>
+                                    </div>
+                                    <div class="card-info">
+                                        <p class="text-body">Entra y ve todos nuestros trabajos realizados</p>
+                                        <button class="btn" id="boton"> Ver
+                                        </button>
+
+                                    </div>
+                                </div>
+                                <!-- Pedicura -->
+                                <div class="card">
+                                    <div class="card-img-pedicura">
+                                        <h3 class="card-img-titulo">Pedicura</h3>
+                                    </div>
+                                    <div class="card-info">
+                                        <p class="text-body">Entra y ve todos nuestros trabajos realizados</p>
+                                        <button class="btn" id="boton"> Ver
+                                        </button>
+
+                                    </div>
+                                </div>
+                                <!-- Manicura -->
+                                <div class="card">
+                                    <div class="card-img-manicura ">
+                                        <h3 class="card-img-titulo">Manicura</h3>
+                                    </div>
+                                    <div class="card-info">
+                                        <p class="text-body">Entra y ve todos nuestros trabajos realizados</p>
+                                        <button class="btn" id="boton"> Ver
+                                        </button>
+
+                                    </div>
+                                </div>
+                                <!-- Peinados -->
+                                <div class="card">
+                                    <div class="card-img-peinados ">
+                                        <h3 class="card-img-titulo">Peinados</h3>
+                                    </div>
+                                    <div class="card-info">
+                                        <p class="text-body">Entra y ve todos nuestros trabajos realizados</p>
+                                        <button class="btn" id="boton"> Ver
+                                        </button>
+
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+
+                        <button id="prev" class="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                            </svg>
+                        </button>
+
+                        <button id="next" class="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <!-- 
+                        
+                        <ul class="card__productos">
+                
+                        <li class="card__contenedor__producto">
+                            <div class="card__border img1 img">
+                                <h2 class="card__titulo">Manicura</h2>
+        
+                            </div>
+                        </li>
+        
+                        <li class="card__contenedor__producto">
+                            <div class="card__border img2 img">
+                                <h2 class="card__titulo">Pedicura</h2>
+        
+        
+                            </div>
+        
+                        </li>
+        
+                        <li class="card__contenedor__producto">
+                            <div class="card__border img3 img">
+                                <h2 class="card__titulo">Cortes</h2>
+        
+                        </div>
+        
+                        <li class="card__contenedor__producto">
+                            <div class="card__border img1 img">
+                                <h2 class="card__titulo">Manicura</h2>
+        
+                            </div>
+                        </li>
+        
+                        <li class="card__contenedor__producto">
+                            <div class="card__border img2 img">
+                                <h2 class="card__titulo">Pedicura</h2>
+        
+        
+                            </div>
+        
+                        </li>
+        
+                        <li class="card__contenedor__producto">
+                            <div class="card__border img3 img">
+                                <h2 class="card__titulo">Cortes</h2>
+        
+                        </div>
+                        <button id="prev" class="button carousel__button__retroceder"></button>
+                    
+                        <button id="next" class="button carousel__button__avanzar"></button>
+            
+            
+        
+                    </ul>
+
+
+
+                    -->
+        </section>
+
+        <section class="diferencias container">
+            <ul class="diferencias__lista">
+                <li class="diferencias__item diferencias__item__reloj">
+                    <h2 class="diferencias__item__titulo">TIME</h2>
+                    <p class="diferencias__item__texto">
+                        En Time nos dedicamos a que tu tiempo sea valioso, respetado y totalmente dedicado a tu belleza,
+                        a tu nuevo cambio. El
+                        Tiempo es para ti donde conocerte es un placer
+
+                    </p>
+                </li>
+                <li class="diferencias__item diferencias__item__enfoque">
+                    <h2 class="diferencias__item__titulo">Servicios</h2>
+                    <p class="diferencias__item__texto">
+                        Brindar un servicio que favorezca a todos es lo primero que tenemos en cuenta, el cual podras
+                        optar
+                        siempre con excelentes precios, excelente atencion
+                    </p>
+                </li>
+                <li class="diferencias__item diferencias__item__especialistas">
+                    <h2 class="diferencias__item__titulo">Especialistas</h2>
+                    <p class="diferencias__item__texto">
+                        Somos especialistas en lo que hacemos, nuestro trabajo esta 100% asegurado de la mano de
+                        nuestros profesionales
+                        totalmente capacitados.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mapa container">
+            <a name="Ubicacion">
+                <h3 class="mapa__titulo">Nuestra Ubicacion</h3>
+                <p class="mapa__texto">
+                    Nuestro establecimiento esta ubicado en el corazon de la ciudad
+                </p>
+                <div class="mapa_imagen">
+                    <iframe class="mapa_imagen_vista"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6567.679187981777!2d-58.397101528291756!3d-34.60821918082682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb5af83a5c09%3A0x2be664eaad691a26!2sTime%20For%20you!5e0!3m2!1ses-419!2sar!4v1651253628885!5m2!1ses-419!2sar"
+                        style="border: 0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </a>
+        </section>
+
+        <a name="Contacto">
+            <section class="contactos">
+
+
+                <div class="contactos-contenedor">
+
+                    <h4 class="contactos__titulos">contacto <i class="fa-solid fa-address-book "></i></h4>
+                    <div class="contenedor-Contacto__redes">
+                        <p class="contactos__texto">Siguenos en nuestras redes sociales</p>
+                        <ul class="footer__redes-sociales">
+                            <li>
+                                <a class="footer__redes" href="https://www.facebook.com/peluqueriatime"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a class="footer__redes" href="https://www.instagram.com/timepeluqueria/"><i
+                                        class="fa-brands fa-instagram logo_redes"></i></a>
+                            </li>
+                            <li>
+                                <a class="footer__redes" href="https://wa.me/+5491139094653?text=¡Estoy+interesado"><i
+                                        class="fa-brands fa-whatsapp-square"></i></a>
+                            </li>
+                            <li>
+                                <a class="footer__redes" href="https://www.tiktok.com/@timeforyousalon"><i
+                                        class="fa-brands fa-tiktok"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <h5 class="contactos__titulos">Correo electronico </h5>
+
+                    <a href="mailto:peluqueriatime@gmail.com">
+                        <p class="contactos__texto"><i class="fa-solid fa-envelopes-bulk "></i> peluqueriatime@gmail.com
+                        </p>
+                    </a>
+
+                    <h6 class="contactos__titulos">Telefono </h6>
+                    <p class="contactos__texto"><i class="fa-solid fa-mobile-screen "></i> 1126875506</p>
+
+
+                </div>
+
+
+
+            </section>
+        </a>
+    </main>
+
+    <footer class="footer container">
+        <img class="footer__logo" src="./img/Logotipo Original (PNG).png" alt="piedepagina_logo" />
+
+
+
+        <ul class="footer__redes-sociales">
+            <li>
+                <a class="footer__redes" href="https://www.facebook.com/peluqueriatime"><i
+                        class="fa-brands fa-facebook "></i></a>
+            </li>
+            <li>
+                <a class="footer__redes" href="https://www.instagram.com/timepeluqueria/"><i
+                        class="fa-brands fa-instagram logo_redes "></i></a>
+            </li>
+            <li>
+                <a class="footer__redes" href="https://wa.me/+5491139094653?text=¡Estoy+interesado"><i
+                        class="fa-brands fa-whatsapp-square "></i></a>
+            </li>
+            <li>
+                <a class="footer__redes" href="https://www.tiktok.com/@timeforyousalon"><i
+                        class="fa-brands fa-tiktok "></i></a>
+            </li>
+        </ul>
+        <nav>
+            <ul class="footer__navegacion">
+                <li class="footer__enlaces">
+                    <a class="footer__enlaces-a" href="#">Inicio <i class="fa-solid fa-house-user  "></i></a>
+                </li>
+                <li class="footer__enlaces">
+                    <a class="footer__enlaces-a" href="#Trabajos">Servicios <i class="fa-solid fa-bell  "></i></a>
+                </li>
+                <li class="footer__enlaces">
+                    <a class="footer__enlaces-a" href="#Ubicacion">Ubicacion <i
+                            class="fa-solid fa-street-view  "></i></a>
+                </li>
+                <li class="footer__enlaces">
+                    <a class="footer__enlaces-a" href="#Contacto">Contacto <i
+                            class="fa-solid fa-address-book   "></i></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <a href="https://wa.me/+5491139094653?text=¡Estoy+interesado" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
+
+
+    <script src="./componentes/app.js"></script>
+    <script src="./componentes/prueba.js"></script>
+    <script src="./componentes/Encabezado.js"></script>
+    <script src="./componentes/index.js"></script>
+
+
+</body>
+
+</html>
